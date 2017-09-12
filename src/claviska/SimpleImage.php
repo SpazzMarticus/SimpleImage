@@ -495,6 +495,8 @@ class SimpleImage {
       $this->rotate(-90);
       break;
     }
+    
+    $this->exif['Orientation'] = 1;
 
     return $this;
   }
